@@ -1,0 +1,92 @@
+---
+title: KEY PERFORMANCE INDICATORS
+subtitle: REVISÃO DE LITERATURA PARA IFs
+author: Alberson Miranda
+date: '`r format(Sys.Date(), "%B de %Y")`'
+format:
+    beamer:
+        include-in-header: config/preamble.tex
+        output-file: render/apresentacao.pdf
+        keep-tex: false
+execute:
+    echo: false
+---
+
+# POR QUE USAR KPIs?
+
+## O QUE SÃO KPIs
+
+Key Performance Indicators (KPI) são métricas financeiras e não financeiras usadas para ajudar uma organização a definir e medir seu progresso na direção de objetivos organizacionais (Nimalathasan, 2009)
+
+## BENEFÍCIOS
+
+Parmenter (2015) coloca três benefícios principais na definição dos fatores de sucesso e suas medidas de performance associadas:
+
+1. Clareza de propósito, do alinhamento diário até os fatores de sucesso organizacionais
+1. Melhoria de performance através do foco. Menos indicadores, porém mais significativos
+1. Cria mentalidade de dono, promove empoderamento e sentimento de realização em todos os níveis da organização
+
+## BENEFÍCIOS
+
+LEPOLD, TANZER & JIMÉNEZ (2018) concluem que a satisfação do empregado tem como dois de seus preditores:
+
+1. autoeficácia (crença do indivíduo em sua própria capacidade e habilidade no seu domínio específico de trabalho)
+2. expectativas de influência (expectativas do indivíduo de ser capaz de influenciar os KPIs).
+
+## BENEFÍCIOS
+
+O engajamento é essencial para a produtividade da empresa e pode ser decomposto em três fatores (LEPOLD, TANZER & JIMÉNEZ, 2018):
+
+1. Vigor: altos níveis de energia e resiliência mental durante o trabalho, disposição em colocar esforço numa atividade e persistência em face de dificuldades
+2. Dedicação: reflete envolvimento e identificação psicológica de um indivíduo por seu trabalho, traduzido por um senso de significância, entusiasmo, inspiração, orgulho e desafio
+3. Absorção: descreve a extensão da concentração total e absorção de alguém em seu trabalho, o sentimento de “tempo voar”
+
+# SELEÇÃO DE KPIs
+
+## KPIs NA LITERATURA
+
+Sejam quais forem os KPIs selecionados, eles devem refletir os fatores de sucesso essenciais de uma empresa e estar conectados à estratégia organizacional (Nimalathasan, 2009).
+
+## KPIs NA LITERATURA
+
+Bancos que atuam focados em KPIs de estratégia voltada para valorização da ação da empresa e pagamento de dividendos têm em média 5,8 pp a mais de Retorno Total do Investidor (TSR) que aqueles que focam em outros indicadores, como o Retorno sobre o Patrimônio (ROE), também os superando em lucratividade, crescimento e liquidez (SCHMALTZ, LUEG & AGERHOLM, 2019)
+
+## KPIs NA LITERATURA
+
+Daryakin et al. (2019) elencam 6 fatores que separam os KPIs efetivos dos desnecessários:
+
+1. Unificados: KPIs devem coincidir com os objetivos estratégicos e marcos da empresa
+1. Factíveis: KPIs devem ser mensuráveis e fáceis de se obter. Do contrário, não há porquê usá-los
+1. Coerentes: KPIs devem coincidir com as atividades das áreas. Ex.: faz sentido medir índice de inadimplência por gerente?
+1. Exatos: KPIs devem ser precisos e confiáveis.
+1. Inteligentes: KPIs devem permitir insights sobre a forma de trabalho da área e o que deve ser feito.
+1. Dinâmicos: KPIs devem estar em constante variação. Não faz sentido acompanhar um número que não se altera.
+
+## KPIs NA LITERATURA
+
+Wu (2012) elenca alguns KPIs em função da sua influência causal nos demais indicadores observados, o que quer dizer que trabalhando nesses indicadores obtém-se efeitos generalizados na instituição bancária.
+
+1. Experiência do Cliente [também indicado em Nimalathasan (2009)]
+1. Performance de Vendas
+1. Taxa de Retenção de Cliente
+1. Market Share
+1. Performance Gerencial
+
+## KPIs NA LITERATURA
+
+Para instituições bancárias, as métricas não financeiras, particularmente as da perspectiva do cliente, devem ser mais enfatizadas.
+
+A orientação voltada ao cliente, estabelecendo as métricas relacionadas ao cliente, deve estar em primeiro plano na definição dos objetivos estratégicos da empresa.
+
+## REFERÊNCIAS
+
+\footnotesize
+DARYAKIN, A. A.; SKLYAROV, A. A.; KHASANOV, K. A. The Role of Key Performance Indicators (KPI) in Banking Activities. **Gênero & Direito**, v. 8, n. 4, 2 out. 2019.
+
+LEPOLD, A.; TANZER, N.; JIMÉNEZ, P. Expectations of Bank Employees on the Influence of Key Performance Indicators and the Relationship with Job Satisfaction and Work Engagement. **Social Sciences**, v. 7, n. 6, p. 99, 19 jun. 2018.
+
+NIMALATHASAN, B. Determinants of Key Performance Indicators (KPIs) of Private Sector Banks in Srilanka: An Application of Exploratory Factor Analysis. v. 9, n. 2, 2009.
+
+SCHMALTZ, C.; LUEG, R.; AGERHOLM, J. Value-Based Management in Banking: The Effects on Shareholder Returns. [s.d.].
+
+WU, H.-Y. Constructing a Strategy Map for Banking Institutions with Key Performance Indicators of the Balanced Scorecard. **Evaluation and Program Planning**, v. 35, n. 3, p. 303–320, ago. 2012.
