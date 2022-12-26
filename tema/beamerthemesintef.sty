@@ -17,7 +17,7 @@
 % You should have received a copy of the GNU General Public License
 % along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-\ProvidesPackage{banestes-tema}[2022/12/23]
+\ProvidesPackage{beamerthemesintef}[2021/11/02]
 
 \RequirePackage{etoolbox}
 \RequirePackage{tikz}
@@ -31,7 +31,7 @@
 \RequirePackage{caladea,carlito}
 \renewcommand{\familydefault}{\sfdefault}
 
-\RequirePackage{graphicx,config/banestes-cores}
+\RequirePackage{graphicx,sintefcolor}
 
 % No navigation symbols
 \setbeamertemplate{navigation symbols}{}
@@ -59,8 +59,8 @@
 }
 \footlinecolor{} % Default: no footline
 
-\pgfdeclareimage[width=0.09\paperwidth]{bluelogo}{img/banestes-logo-branca}
-\pgfdeclareimage[width=0.09\paperwidth]{whitelogo}{img/banestes-logo-colorida}
+\pgfdeclareimage[width=0.09\paperwidth]{bluelogo}{images/banestes-logo-branca}
+\pgfdeclareimage[width=0.09\paperwidth]{whitelogo}{images/banestes-logo-colorida}
 \newcommand{\@SINTEFlogo}{bluelogo}
 
 % Set colours
@@ -130,10 +130,10 @@
 }
 
 % Define the title page
-\setbeamertemplate{title page}{%
-  \vskip0pt plus 1filll%
+\setbeamertemplate{title page}{
+  \vskip0pt plus 1filll
   \hspace{-12mm}% Pull back the box in an inelegant way - but it works!
-  \begin{beamercolorbox}[wd=0.9\textwidth,sep=10pt,leftskip=8mm]{title}%
+  \begin{beamercolorbox}[wd=0.9\textwidth,sep=10pt,leftskip=8mm]{title}
     {\usebeamerfont{title}\inserttitle}
 
     {\usebeamerfont{subtitle}\insertsubtitle}
@@ -246,12 +246,13 @@
     	\usebeamercolor[fg]{normal text}
 	    \centering
         \Huge $$\mathcal Q \& \mathcal A$$
-    	\Large \textbf{感谢您的聆听和反馈}
+    	\Large \textsl{Thank you for listening! \\ Your feedback will be highly appreciated!}
     \end{minipage}
   \end{frame}
 \endgroup
 }
 
 % MY CUSTOMIZATION
-\newcommand{\strtoc}{目录}
-\newcommand{\strsubsec}{\thesection.\thesubsection 节}
+
+\newcommand{\strtoc}{Table of Contents}
+\newcommand{\strsubsec}{Section \thesection.\thesubsection}

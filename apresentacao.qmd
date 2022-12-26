@@ -5,11 +5,12 @@ author: Alberson Miranda
 date: '`r format(Sys.Date(), "%B de %Y")`'
 format:
     beamer:
-        include-in-header: config/preamble.tex
         output-file: render/apresentacao.pdf
-        keep-tex: false
+        include-in-header: tema/preamble.tex
+        keep-tex: true
 execute:
     echo: false
+titlebackground: images/background.png
 ---
 
 # POR QUE USAR KPIs?
