@@ -10,7 +10,6 @@ format:
         keep-tex: true
 execute:
     echo: false
-titlebackground: images/background.png
 ---
 
 # POR QUE USAR KPIs?
